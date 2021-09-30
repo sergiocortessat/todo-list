@@ -46,6 +46,8 @@ function App() {
         <button type="button" onClick={(e) => handleDelete(e,index)} >
           Delete
           </button>
+          {/* button to handle delete
+        {/* <button type="button" onClick={(e) => setTodoItems()} */}
       </div>
     ))}
     </div>
